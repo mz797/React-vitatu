@@ -1,0 +1,12 @@
+.product-list-box {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+    
+}
+.product-list {
+	margin: 10px auto 0px;
+}
+.heading {
+	text-align: center;
+}

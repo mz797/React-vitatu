@@ -1,0 +1,29 @@
+.nav {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+	padding: 0 1rem;
+}
+.nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+}
+.site-title {
+	font-size: 2rem;
+}
+.nav a {
+	color: #fff;
+	text-decoration: none;
+}
+.nav li:hover a {
+	color: rgb(201, 255, 189);
+}
+.nav li.active a {
+	color: rgb(201, 255, 189);
+}

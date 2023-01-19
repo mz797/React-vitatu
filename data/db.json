@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Mleko",
+      "kcal": 100,
+      "carbohydrates": 13,
+      "fat": 30,
+      "protein": 43
+    },
+    {
+      "id": "2",
+      "name": "Chleb",
+      "kcal": 250,
+      "carbohydrates": 57,
+      "fat": 10,
+      "protein": 5
+    },
+    {
+      "id": "3",
+      "name": "Jajko",
+      "kcal": 150,
+      "carbohydrates": 2,
+      "fat": 2,
+      "protein": 65
+    },
+    {
+      "id": "4",
+      "name": "Jogobella",
+      "kcal": 200,
+      "carbohydrates": 50,
+      "fat": 20,
+      "protein": 30
+    },
+    {
+      "carbohydrates": 6,
+      "fat": 6,
+      "kcal": 6,
+      "name": "drfgty",
+      "protein": 6,
+      "id": "34"
+    },
+    {
+      "carbohydrates": 4,
+      "fat": 4,
+      "kcal": 4,
+      "name": "wty",
+      "protein": 4,
+      "id": "789"
+    },
+    {
+      "carbohydrates": 6,
+      "fat": 6,
+      "kcal": 6,
+      "name": "t",
+      "protein": 6,
+      "id": "6578"
+    },
+    {
+      "carbohydrates": 7,
+      "fat": 7,
+      "kcal": 7,
+      "name": "sdf",
+      "protein": 7,
+      "id": "4567"
+    },
+    {
+      "carbohydrates": 7,
+      "fat": 7,
+      "kcal": 7,
+      "name": "ygjf",
+      "protein": 7,
+      "id": "000"
+    }
+  ]
+}

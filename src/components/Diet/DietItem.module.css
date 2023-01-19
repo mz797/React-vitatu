@@ -1,0 +1,25 @@
+.product {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	width: 100%;
+	font-size: 20px;
+}
+.product p {
+	width: 100px;
+}
+.product span {
+	font-weight: bold;
+}
+.product button {
+	margin-bottom: 5px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: 1px solid #999;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+.product button:hover {
+	background-color: #999;
+	color: #fff;
+}
