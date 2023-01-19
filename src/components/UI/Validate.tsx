@@ -127,42 +127,42 @@ const Validate = (props: validateProps) => {
 					label="Id"
 					value={id}
 					onChange={idHandler}></Input>
-				<Error message="Unikalny klucz" status={idIsValid}></Error>
+				{!idIsValid && <Error message="Unikalny klucz"></Error>}
 				<Input
 					id="name"
 					type="text"
 					label="Nazwa"
 					value={name}
 					onChange={nameHandler}></Input>
-				<Error message="Wymagany" status={nameIsValid}></Error>
+				{!nameIsValid && <Error message="Wymagany"></Error>}
 				<Input
 					id="kcal"
 					type="number"
 					label="Kcal"
 					value={kcal + ""}
 					onChange={kcalHandler}></Input>
-				<Error message="<0,1000>" status={kcalIsValid}></Error>
+				{!kcalIsValid && <Error message="<0,1000>"></Error>}
 				<Input
 					id="carbo"
 					type="number"
 					label="Węglowodany"
 					value={carbo + ""}
 					onChange={carboHandler}></Input>
-				<Error message="<0,1000>" status={carboIsValid}></Error>
+				{!carboIsValid && <Error message="<0,1000>"></Error>}
 				<Input
 					id="fat"
 					type="number"
 					label="Tłuszcz"
 					value={fat + ""}
 					onChange={fatHandler}></Input>
-				<Error message="<0,1000>" status={fatIsValid}></Error>
+				{fatIsValid && <Error message="<0,1000>" ></Error>}
 				<Input
 					id="protein"
 					type="number"
 					label="Białko"
 					value={protein + ""}
 					onChange={proteinHandler}></Input>
-				<Error message="<0,1000>" status={proteinIsValid}></Error>
+				{proteinIsValid && <Error message="<0,1000>" ></Error>}
 				<button type="submit">Dodaj</button>
 			</form>
 		</div>

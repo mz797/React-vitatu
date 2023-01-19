@@ -19,20 +19,35 @@ const productAPI = {
 				);
 			});
 			return productList;
-		} catch (err: any) {
-			console.log(err.response.data);
-			console.log(err.response.status);
-			console.log(err.response.headers);
+		} catch (err) {
+            return false;
 		}
 	},
 	postProduct: async (product: ProductClass) => {
 		try {
 			const response = await api.post("./products", product);
-
 			return response.data;
-		} catch (err: any) {
-			console.log(`Error ${err.message}`);
+
+		} catch (err) {
+			return false
 		}
 	},
+	deleteProduct:async(productId:string)=>{
+		try{
+			await api.delete(`./products/${productId}`)
+		}catch(error){
+			return false;
+		}
+	},
+	editProduct:async(product:ProductClass)=>{
+		try{
+			const response = await api.put(`./products/${product.Id}`,product)
+			console.log(response.data);
+			return response.data
+		}catch(err){
+			return false;
+		}
+	}
+
 };
 export default productAPI;

@@ -6,6 +6,7 @@ type inputProps = {
 	id: string;
 	value: string;
 	onChange: (e: React.FormEvent<HTMLInputElement>) => void;
+	onBlur?: (e: React.FormEvent<HTMLInputElement>) => void;
 };
 
 const Input = (props: inputProps) => {
@@ -16,7 +17,9 @@ const Input = (props: inputProps) => {
 				type={props.type}
 				value={props.value}
 				id={props.id}
-				onChange={props.onChange}></input>
+				onChange={props.onChange}
+				onBlur={props.onBlur }
+				></input>
 		</div>
 	);
 };

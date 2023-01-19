@@ -1,39 +1,52 @@
 import { useEffect, useState } from "react";
 import { ProductClass } from "./types/Product";
-// import axios from "axios";
-import productAPI from "./services/productAPI";
 import { Route, Routes } from "react-router-dom";
 import ProductList from "./components/Products/ProductList";
 import Card from "./components/UI/Card";
 
 import Validate from "./components/UI/Validate";
 import styles from "./App.module.css";
-import DietList from "./components/Diet/DistList";
+import DietList from "./components/Diet/DietList";
 import Navbar from "./components/Navbar/Navbar";
+import productAPI from "./services/productAPI";
 
 function App() {
-	const products: ProductClass[] = [];
 	let dietItems: ProductClass[] = [];
-	const [productList, setProductList] = useState(products);
+	const [productList, setProductList] = useState<ProductClass[]>([]);
 	const [dietList, setDietList] = useState(dietItems);
 
 	useEffect(() => {
-		let response;
 		const fetchPosts = async () => {
-			response = await productAPI.getProducts();
+			const response = await productAPI.getProducts();
+			if (!response) {
+				console.error("[App.tsx] Products not found in API");
+				return;
+			}
 			setProductList(response);
 		};
 		fetchPosts();
-	}, []);
+	}, [productList]);
 
 	const addProductHandler = (product: ProductClass) => {
 		const post = async (product: ProductClass) => {
 			const response = await productAPI.postProduct(product);
-			await setProductList((prev) => {
+			setProductList((prev) => {
 				return [...prev, response.data];
 			});
 		};
 		post(product);
+	};
+	const deleteProductHandler = (id: string) => {
+		const deleteProduct = async (id: string) => {
+			await productAPI.deleteProduct(id);
+		};
+		deleteProduct(id);
+	};
+	const editProductHandler = (product: ProductClass) => {
+		const editProduct=async(product:ProductClass)=>{
+			await productAPI.editProduct(product)
+		}
+		editProduct(product);
 	};
 	const addProductToDietHandler = (product: ProductClass) => {
 		setDietList((prev) => {
@@ -61,7 +74,9 @@ function App() {
 	const ProductsComponent = (
 		<ProductList
 			products={productList}
-			onAddProduct={addProductToDietHandler}></ProductList>
+			onAddProduct={addProductToDietHandler}
+			onDeleteProduct={deleteProductHandler}
+			onEditProduct={editProductHandler}></ProductList>
 	);
 	const AddProductComponent = (
 		<Validate
@@ -79,9 +94,7 @@ function App() {
 					<Route
 						path="/diet"
 						element={<Card>{DietComponent}</Card>}></Route>
-					<Route
-						path="/products"
-						element={<Card>{ProductsComponent}</Card>}></Route>
+					<Route path="/products" element={ProductsComponent}></Route>
 					<Route
 						path="/add-product"
 						element={<Card>{AddProductComponent}</Card>}></Route>
