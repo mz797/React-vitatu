@@ -8,8 +8,9 @@ import EditDietProduct from "./EditDietProduct";
 import Moment from "moment";
 import { DietHistoryClass } from "../../types/DietHistory";
 import { useSelector } from "react-redux";
-import { User } from "../../types/User";
 import Footer from "../Footer/Footer";
+import { selectUser } from "../../store/auth";
+import { useNavigate, useParams } from "react-router-dom";
 
 type MyProps = {
 	dietList: DietClass[];
@@ -19,11 +20,11 @@ type MyProps = {
 	onEditDiet: (dietProduct: DietClass) => void;
 };
 const DietList = (props: MyProps) => {
-	const user = useSelector(
-		(state: { auth: { isAuthenticated: boolean; user: User } }) => {
-			return state.auth.user;
-		}
-	);
+	const params = useParams();
+	const navigate = useNavigate();
+
+	const user = useSelector(selectUser);
+	
 	const [isDeleting, setIsDeleting] = useState(false);
 	const [productToDelete, setProductToDelete] = useState(props.dietList[0]);
 	const [isEditing, setIsEditing] = useState(false);
@@ -34,12 +35,6 @@ const DietList = (props: MyProps) => {
 		fat: 0,
 		protein: 0,
 	};
-	// const [procentageMacros, setProcentageMacros] = useState({
-	// 	kcal: 0,
-	// 	carbo: 0,
-	// 	fat: 0,
-	// 	protein: 0,
-	// });
 	const [originalProduct, setOriginalProduct] = useState(
 		props.productList[0]
 	);
@@ -77,11 +72,20 @@ const DietList = (props: MyProps) => {
 		}
 	}, [props.historyDiet, user]);
 
-	const deleteFromDietHandler = (product: DietClass) => {
-		setIsDeleting(true);
-		setProductToDelete(product);
-	};
+	useEffect(() => {
+		if (params.id) {
+			const prodId = props.dietList.findIndex(
+				(p) => p.IdDiet === params.id
+			);
+			if (prodId !== -1) {
+				setProductToDelete(props.dietList[prodId]);
+				setIsDeleting(true);
+			}
+		}
+	}, [params]);
+
 	const confirmDeleteHandler = () => {
+		navigate("/diet");
 		setIsDeleting(false);
 		props.onDeleteDiet(productToDelete);
 	};
@@ -94,7 +98,6 @@ const DietList = (props: MyProps) => {
 		);
 		if (index !== -1) {
 			setOriginalProduct(props.productList[index]);
-			console.log(originalProduct);
 		}
 		setIsEditing(true);
 		setProductToEdite(product);
@@ -130,7 +133,6 @@ const DietList = (props: MyProps) => {
 										className={classes["diet-li"]}>
 										<DietItem
 											product={prod}
-											onDelete={deleteFromDietHandler}
 											onEdit={
 												openEditingHandler
 											}></DietItem>

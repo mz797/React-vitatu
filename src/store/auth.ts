@@ -1,6 +1,10 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+// import { getDefaultMiddleware } from "@reduxjs/toolkit";
 import { RootState } from ".";
 import { User } from "../types/User";
+// const customizedMiddleware = getDefaultMiddleware({
+// 	serializableCheck: false,
+// });
 
 const initialAuthState = {
 	isAuthenticated: false,

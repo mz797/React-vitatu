@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 import { selectIsAuthenticated } from "../../store/auth";
 const Navbar = () => {
 	const isAuthenticated = useSelector(selectIsAuthenticated);
-	console.log(isAuthenticated);
 	return (
 		<nav className={classes.nav}>
 			<Link to="/" className={classes["site-title"]}>

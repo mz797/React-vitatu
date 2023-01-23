@@ -1,4 +1,44 @@
-.app{
-    display: flex;
-    width: 100vw;
+.app {
+	display: flex;
+	width: 100vw;
+}
+.app .body-icon {
+	position: fixed;
+	color: #f77f00;
+	opacity: 0.1;
+	z-index: -1;
+}
+.app .body-icon:nth-of-type(1) {
+	top: 30%;
+	left: 40px;
+	font-size: 200px;
+	animation: rotate-left 30s ease-in infinite both;
+}
+.app .body-icon:nth-of-type(2) {
+	top: 50%;
+	right: 10%;
+	font-size: 120px;
+	animation: rotate-left 50s ease-in-out infinite both;
+}
+.app .body-icon:nth-of-type(3) {
+	top: 80vh;
+	left: 40%;
+	font-size: 150px;
+	animation: rotate-right 50s linear infinite both;
+}
+@keyframes rotate-right {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotate-left {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
 }

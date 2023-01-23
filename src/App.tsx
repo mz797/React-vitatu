@@ -185,16 +185,18 @@ function App() {
 				<Routes>
 					<Route path="/" element={ProductsComponent}></Route>
 					<Route path="/diet" element={DietComponent}></Route>
+					<Route path="/diet/:id" element={DietComponent}></Route>
 					<Route path="/products" element={ProductsComponent}></Route>
-					<Route
-						path="/add-product"
-						element={AddProductComponent}></Route>
-					<Route
-						path="/diet-history"
-						element={DietHistoryComponent}></Route>
+					<Route path="/add-product"	element={AddProductComponent}></Route>
+					<Route path="/diet-history"	element={DietHistoryComponent}></Route>
 					<Route path="/user" element={UserComponent}></Route>
 					<Route path="/login" element={LoginComponent}></Route>
 				</Routes>
+				<i className={`fa-solid fa-carrot ${styles["body-icon"]} `}></i>
+				<i
+					className={`fa-solid fa-apple-whole ${styles["body-icon"]}`}></i>
+				<i
+					className={`fa-solid fa-drumstick-bite ${styles["body-icon"]}`}></i>
 			</div>
 		</>
 	);

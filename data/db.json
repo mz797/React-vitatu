@@ -18,7 +18,7 @@
     },
     {
       "carbohydrates": "60.1",
-      "fat": "1.7",
+      "fat": "1.8",
       "kcal": "282",
       "name": "Bagietki francuskie",
       "protein": "7.9",
@@ -283,80 +283,36 @@
     },
     {
       "amount": "100",
-      "carbohydrates": 80,
-      "date": "2023-01-23T13:32:58.531Z",
-      "fat": 10,
-      "idProd": "2e951de8-3815-58ea-062a-96962116a0d4",
-      "kcal": 100,
-      "name": "banan",
-      "protein": 10,
-      "id": "f7158048-db23-d1df-6a63-8ea8af3f7e69"
-    },
-    {
-      "amount": "1000",
-      "carbohydrates": 235,
-      "date": "2023-01-23T14:00:09.349Z",
-      "fat": 3,
+      "carbohydrates": 23.5,
+      "date": "2023-01-23T16:25:48.226Z",
+      "fat": 0.3,
       "idProd": "3f91b001-42ea-83cb-9f53-4019c96fa1ff",
-      "kcal": 950,
+      "kcal": 95,
       "name": "Banan",
-      "protein": 10,
-      "id": "2d11edb6-c581-1603-e2bd-6621c8cfc5a6"
-    },
-    {
-      "amount": "250",
-      "carbohydrates": 0,
-      "date": "2023-01-23T14:00:19.221Z",
-      "fat": 7,
-      "idProd": "7eef9357-acfc-0943-d138-a4ba20f5f458",
-      "kcal": 265,
-      "name": "Cielęcina, łopatka",
-      "protein": 49.75,
-      "id": "847dc859-2280-acc7-da28-9e2ae4e1864d"
+      "protein": 1,
+      "id": "b74e03b7-b012-f9a1-77b2-643f3f3c73a7"
     },
     {
       "amount": "100",
-      "carbohydrates": 45.6,
-      "date": "2023-01-23T14:00:25.728Z",
-      "fat": 11,
-      "idProd": "5aa42830-f5a2-83a0-fd33-120315922a49",
-      "kcal": 303,
-      "name": "Buchty drożdżowe",
-      "protein": 6.2,
-      "id": "40bd9608-dc85-daea-af9a-6c9bbc08ac4d"
-    },
-    {
-      "amount": "100",
-      "carbohydrates": 10.4,
-      "date": "2023-01-23T14:00:30.280Z",
-      "fat": 0,
-      "idProd": "4024dd43-8c83-cfdf-5c0c-f16b9a7f20f3",
-      "kcal": 42,
-      "name": "Coca Cola",
-      "protein": 0,
-      "id": "f977da80-713d-ebe1-59eb-dd0573b914f0"
-    },
-    {
-      "amount": "50",
       "carbohydrates": 0,
-      "date": "2023-01-23T14:18:06.136Z",
-      "fat": 0.35,
+      "date": "2023-01-23T16:25:54.550Z",
+      "fat": 0.7,
       "idProd": "5db31ad5-c68b-2d74-36e4-14d7aa11d935",
-      "kcal": 39,
+      "kcal": 78,
       "name": "Dorsz świeży",
-      "protein": 8.85,
-      "id": "52f226c6-5ff8-3370-aa3d-c5781658199b"
+      "protein": 17.7,
+      "id": "ed297128-1c7f-b69a-aca5-a3fb9894c059"
     },
     {
-      "amount": "1",
-      "carbohydrates": 0.601,
-      "date": "2023-01-23T14:39:03.786Z",
-      "fat": 0.017,
-      "idProd": "2fedd4ab-f0cf-cede-aab9-0cf7d529f2ed",
-      "kcal": 2.82,
-      "name": "Bagietki francuskie",
-      "protein": 0.079,
-      "id": "98572a5a-218a-8978-6bc7-6b5c10a236e1"
+      "amount": "100",
+      "carbohydrates": 7.4,
+      "date": "2023-01-23T16:29:01.722Z",
+      "fat": 15.3,
+      "idProd": "7ef44cf6-644b-9489-ee11-d17003f5f006",
+      "kcal": 160,
+      "name": "Awokado",
+      "protein": 2,
+      "id": "6c54dea8-e4f8-205c-d5ec-8c89052f2210"
     }
   ]
 }

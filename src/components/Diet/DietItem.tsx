@@ -3,22 +3,21 @@ import Moment from "moment";
 import classes from "./DietItem.module.css";
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { User } from "../../types/User";
+import { selectUser } from "../../store/auth";
+import { useNavigate } from "react-router-dom";
 
 type MyProps = {
 	product: DietClass;
-	onDelete: (product: DietClass) => void;
 	onEdit: (product: DietClass) => void;
 };
 const DietItem = (props: MyProps) => {
-	const user = useSelector(
-		(state: { auth: { isAuthenticated: boolean; user: User } }) => {
-			return state.auth.user;
-		}
-	);
+	const navigate = useNavigate();
+	const user = useSelector(selectUser);
+
 	const [showDetails, setShowDetails] = useState(false);
+
 	const deleteDietItemHandler = () => {
-		props.onDelete(props.product);
+		navigate(`/diet/${props.product.IdDiet}`);
 	};
 	const toggleDetailsHandler = () => {
 		setShowDetails((prev) => !prev);
@@ -42,6 +41,7 @@ const DietItem = (props: MyProps) => {
 					<button onClick={editHandler}>
 						<i className="fa-solid fa-pen"></i>
 					</button>
+
 					<button onClick={deleteDietItemHandler}>x</button>
 				</div>
 			</div>
