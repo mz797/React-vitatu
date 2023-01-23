@@ -1,0 +1,23 @@
+.product {
+	display: flex;
+	justify-content: space-between;
+    padding-left: 20px;
+}
+.history p {
+	margin: 5px;
+	letter-spacing: 1.5px;
+	text-transform: capitalize;
+	color: #003049;
+}
+.history p span {
+	font-weight: 500;
+}
+.details-box {
+	height: 0;
+}
+.details.active {
+	height: 100%;
+}
+.details-parag{
+    padding-left: 40px;
+}

@@ -1,36 +1,362 @@
 {
   "products": [
     {
-      "carbohydrates": "13",
-      "fat": "30",
-      "kcal": "100",
-      "name": "Mleko",
-      "protein": "48",
-      "id": "1"
+      "carbohydrates": "13.6",
+      "fat": "0.2",
+      "kcal": "54",
+      "name": "Ananas",
+      "protein": "0.4",
+      "id": "be70d901-6946-d7c3-8807-be10e9a8f299"
     },
     {
-      "id": "2",
-      "name": "Chleb",
-      "kcal": 250,
-      "carbohydrates": 57,
-      "fat": 10,
-      "protein": 5
+      "carbohydrates": "7.4",
+      "fat": "15.3",
+      "kcal": "160",
+      "name": "Awokado",
+      "protein": "2",
+      "id": "7ef44cf6-644b-9489-ee11-d17003f5f006"
     },
     {
-      "carbohydrates": "2",
-      "fat": "2",
-      "kcal": "100",
-      "name": "Jajko",
+      "carbohydrates": "60.1",
+      "fat": "1.7",
+      "kcal": "282",
+      "name": "Bagietki francuskie",
+      "protein": "7.9",
+      "id": "2fedd4ab-f0cf-cede-aab9-0cf7d529f2ed"
+    },
+    {
+      "carbohydrates": "23.5",
+      "fat": "0.3",
+      "kcal": "95",
+      "name": "Banan",
+      "protein": "1",
+      "id": "3f91b001-42ea-83cb-9f53-4019c96fa1ff"
+    },
+    {
+      "carbohydrates": "0",
+      "fat": "18",
+      "kcal": "232",
+      "name": "Baranina, udziec",
+      "protein": "18",
+      "id": "add37de6-bc49-83b1-01b4-2db87ae93cf7"
+    },
+    {
+      "carbohydrates": "6.5",
+      "fat": "2.7",
+      "kcal": "54",
+      "name": "Barszcz ukraiński",
+      "protein": "2.1",
+      "id": "80d64eef-7ee7-bb71-a4fa-d68cbdcbf5b0"
+    },
+    {
+      "carbohydrates": "1.6",
+      "fat": "19.4",
+      "kcal": "258",
+      "name": "Befsztyk bity wiejski",
+      "protein": "19.6",
+      "id": "3eca1687-7362-02ce-3326-46272e7fa44a"
+    },
+    {
+      "carbohydrates": "23.6",
+      "fat": "16.3",
+      "kcal": "257",
+      "name": "Bliny ziemniaczane",
+      "protein": "5.6",
+      "id": "4545468b-e7ec-00a3-b92e-287b9d6fafd3"
+    },
+    {
+      "carbohydrates": "5.5",
+      "fat": "0.5",
+      "kcal": "17",
+      "name": "Boćwina",
+      "protein": "2.7",
+      "id": "d16954a4-7dc6-bfd8-8925-f17a1223b9ca"
+    },
+    {
+      "carbohydrates": "5.2",
+      "fat": "0.4",
+      "kcal": "27",
+      "name": "Brokuły",
+      "protein": "3",
+      "id": "f597c6da-9ddd-7aa8-6f11-365593a25538"
+    },
+    {
+      "carbohydrates": "11.9",
+      "fat": "0.2",
+      "kcal": "46",
+      "name": "Brzoskwinia",
+      "protein": "1",
+      "id": "8872e018-af02-9adf-f68f-58f6f7ea3e49"
+    },
+    {
+      "carbohydrates": "45.6",
+      "fat": "11",
+      "kcal": "303",
+      "name": "Buchty drożdżowe",
+      "protein": "6.2",
+      "id": "5aa42830-f5a2-83a0-fd33-120315922a49"
+    },
+    {
+      "carbohydrates": "56.4",
+      "fat": "1.7",
+      "kcal": "258",
+      "name": "Bułki grahamki",
+      "protein": "8.2",
+      "id": "42a0cb61-2357-b842-581e-5b9a157d5b13"
+    },
+    {
+      "carbohydrates": "5.6",
+      "fat": "6.8",
+      "kcal": "249",
+      "name": "Chleb pszenny",
+      "protein": "1.4",
+      "id": "64982161-c7d9-1c35-95db-20da80803b64"
+    },
+    {
+      "carbohydrates": "0",
+      "fat": "2.8",
+      "kcal": "106",
+      "name": "Cielęcina, łopatka",
+      "protein": "19.9",
+      "id": "7eef9357-acfc-0943-d138-a4ba20f5f458"
+    },
+    {
+      "carbohydrates": "10.4",
+      "fat": "0",
+      "kcal": "42",
+      "name": "Coca Cola",
       "protein": "0",
-      "id": "3"
+      "id": "4024dd43-8c83-cfdf-5c0c-f16b9a7f20f3"
     },
     {
-      "carbohydrates": "50",
-      "fat": "20",
-      "kcal": "200",
+      "carbohydrates": "0",
+      "fat": "0.7",
+      "kcal": "78",
+      "name": "Dorsz świeży",
+      "protein": "17.7",
+      "id": "5db31ad5-c68b-2d74-36e4-14d7aa11d935"
+    }
+  ],
+  "diets": [
+    {
+      "amount": "15",
+      "carbohydrates": 0.15,
+      "date": "2023-01-20T20:43:10.564Z",
+      "fat": 4.5,
+      "idProd": "1",
+      "kcal": 15,
+      "name": "Mleko",
+      "protein": 7.2,
+      "id": "3135b50f-2e56-5460-e2f2-e65f72473ce6"
+    },
+    {
+      "amount": "10",
+      "carbohydrates": 0.1,
+      "date": "2023-01-20T20:54:03.949Z",
+      "fat": 3,
+      "idProd": "1",
+      "kcal": 10,
+      "name": "Mleko",
+      "protein": 4.8,
+      "id": "7fc58706-b40f-0836-ad74-8ff5f039e640"
+    },
+    {
+      "amount": "10",
+      "carbohydrates": 0.1,
+      "date": "2023-01-20T20:54:40.557Z",
+      "fat": 3,
+      "idProd": "2e951de8-3815-58ea-062a-96962116a0d4",
+      "kcal": 10,
+      "name": "banan",
+      "protein": 4.8,
+      "id": "b9065a16-e5e9-b7d4-5aae-857ad5c14518"
+    },
+    {
+      "amount": "150",
+      "carbohydrates": 1.5,
+      "date": "2023-01-21T11:23:02.025Z",
+      "fat": 45,
+      "idProd": "4",
+      "kcal": 150,
       "name": "Jogobella",
-      "protein": "60",
-      "id": "4"
+      "protein": 72,
+      "id": "7e191670-1ba1-f246-f5c5-1486504ce025"
+    },
+    {
+      "amount": "200",
+      "carbohydrates": 100,
+      "date": "2023-01-21T11:23:57.880Z",
+      "fat": 40,
+      "idProd": "4",
+      "kcal": 410,
+      "name": "Jogobella",
+      "protein": 138,
+      "id": "9e245aed-f542-9492-a257-28877e7d2f8f"
+    },
+    {
+      "amount": "100",
+      "carbohydrates": 1,
+      "date": "2023-01-21T11:25:09.797Z",
+      "fat": 30,
+      "idProd": "3",
+      "kcal": 100,
+      "name": "Jajko",
+      "protein": 48,
+      "id": "3699c909-b463-c1a5-0209-a40ca8187332"
+    },
+    {
+      "amount": "200",
+      "carbohydrates": 100,
+      "date": "2023-01-21T21:29:59.008Z",
+      "fat": 40,
+      "idProd": "4",
+      "kcal": 410,
+      "name": "Jogobella",
+      "protein": 138,
+      "id": "4dcd34fd-615b-a627-1a5f-4b5b6f511418"
+    },
+    {
+      "amount": "40",
+      "carbohydrates": 2.8,
+      "date": "2023-01-21T21:42:12.915Z",
+      "fat": 2.8,
+      "idProd": "e2e404f5-367b-c6db-98d4-e24e197458b2",
+      "kcal": 2.8,
+      "name": "777",
+      "protein": 3.6,
+      "id": "1e192a7f-e651-227e-35b4-28b89bd47456"
+    },
+    {
+      "amount": "100",
+      "carbohydrates": 5,
+      "date": "2023-01-22T17:10:28.909Z",
+      "fat": 20,
+      "idProd": "4",
+      "kcal": 205,
+      "name": "Jogobella",
+      "protein": 69,
+      "id": "8cee57da-8ca1-06eb-384d-b58272d6c4be"
+    },
+    {
+      "amount": "1",
+      "carbohydrates": 0.8,
+      "date": "2023-01-22T18:58:54.674Z",
+      "fat": 0.1,
+      "idProd": "2e951de8-3815-58ea-062a-96962116a0d4",
+      "kcal": 1,
+      "name": "banan",
+      "protein": 0.1,
+      "id": "f080bd36-ad49-d10c-00f4-81e54a8a79c3"
+    },
+    {
+      "amount": "100",
+      "carbohydrates": 0,
+      "date": "2023-01-22T18:59:01.554Z",
+      "fat": 0,
+      "idProd": "RSe9G_G",
+      "kcal": 0,
+      "name": "lama",
+      "protein": 0,
+      "id": "55ec1687-aab2-3b0f-3b0f-ac0fd91ff460"
+    },
+    {
+      "amount": "2",
+      "carbohydrates": 0.1,
+      "date": "2023-01-22T18:59:08.754Z",
+      "fat": 0.4,
+      "idProd": "4",
+      "kcal": 4.1,
+      "name": "Jogobella",
+      "protein": 1.38,
+      "id": "1b42b53e-7680-0245-7161-cf044608ee25"
+    },
+    {
+      "amount": "1",
+      "carbohydrates": 0.07,
+      "date": "2023-01-22T19:24:18.886Z",
+      "fat": 0.07,
+      "idProd": "e2e404f5-367b-c6db-98d4-e24e197458b2",
+      "kcal": 0.07,
+      "name": "777",
+      "protein": 0.09,
+      "id": "21dcea38-cd3d-30ac-3cf0-7d36a79ae565"
+    },
+    {
+      "amount": "100",
+      "carbohydrates": 80,
+      "date": "2023-01-23T13:32:58.531Z",
+      "fat": 10,
+      "idProd": "2e951de8-3815-58ea-062a-96962116a0d4",
+      "kcal": 100,
+      "name": "banan",
+      "protein": 10,
+      "id": "f7158048-db23-d1df-6a63-8ea8af3f7e69"
+    },
+    {
+      "amount": "1000",
+      "carbohydrates": 235,
+      "date": "2023-01-23T14:00:09.349Z",
+      "fat": 3,
+      "idProd": "3f91b001-42ea-83cb-9f53-4019c96fa1ff",
+      "kcal": 950,
+      "name": "Banan",
+      "protein": 10,
+      "id": "2d11edb6-c581-1603-e2bd-6621c8cfc5a6"
+    },
+    {
+      "amount": "250",
+      "carbohydrates": 0,
+      "date": "2023-01-23T14:00:19.221Z",
+      "fat": 7,
+      "idProd": "7eef9357-acfc-0943-d138-a4ba20f5f458",
+      "kcal": 265,
+      "name": "Cielęcina, łopatka",
+      "protein": 49.75,
+      "id": "847dc859-2280-acc7-da28-9e2ae4e1864d"
+    },
+    {
+      "amount": "100",
+      "carbohydrates": 45.6,
+      "date": "2023-01-23T14:00:25.728Z",
+      "fat": 11,
+      "idProd": "5aa42830-f5a2-83a0-fd33-120315922a49",
+      "kcal": 303,
+      "name": "Buchty drożdżowe",
+      "protein": 6.2,
+      "id": "40bd9608-dc85-daea-af9a-6c9bbc08ac4d"
+    },
+    {
+      "amount": "100",
+      "carbohydrates": 10.4,
+      "date": "2023-01-23T14:00:30.280Z",
+      "fat": 0,
+      "idProd": "4024dd43-8c83-cfdf-5c0c-f16b9a7f20f3",
+      "kcal": 42,
+      "name": "Coca Cola",
+      "protein": 0,
+      "id": "f977da80-713d-ebe1-59eb-dd0573b914f0"
+    },
+    {
+      "amount": "50",
+      "carbohydrates": 0,
+      "date": "2023-01-23T14:18:06.136Z",
+      "fat": 0.35,
+      "idProd": "5db31ad5-c68b-2d74-36e4-14d7aa11d935",
+      "kcal": 39,
+      "name": "Dorsz świeży",
+      "protein": 8.85,
+      "id": "52f226c6-5ff8-3370-aa3d-c5781658199b"
+    },
+    {
+      "amount": "1",
+      "carbohydrates": 0.601,
+      "date": "2023-01-23T14:39:03.786Z",
+      "fat": 0.017,
+      "idProd": "2fedd4ab-f0cf-cede-aab9-0cf7d529f2ed",
+      "kcal": 2.82,
+      "name": "Bagietki francuskie",
+      "protein": 0.079,
+      "id": "98572a5a-218a-8978-6bc7-6b5c10a236e1"
     }
   ]
 }

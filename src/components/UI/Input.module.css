@@ -1,4 +1,18 @@
-.input{
-    display: flex;
-    flex-direction: column;
+.input-box {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.input-box .invalid{
+    border: 1px solid #ff0000;
+}
+.input-box input {
+	padding: 5px 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #ff840070;
+}
+.input-box label {
+	font-size: 20px;
+	color: #003049;
 }

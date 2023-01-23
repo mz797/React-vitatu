@@ -1,0 +1,63 @@
+hr {
+	color: #003049;
+}
+.usersite-box,
+.usersite-icon {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.user-info {
+	display: flex;
+	justify-content: space-between;
+}
+.user-info p {
+	margin-top: 15px;
+	font-size: 22px;
+	color: #003049;
+}
+.user-info p span {
+	font-weight: bold;
+}
+.usersite-box {
+	width: 50vw;
+}
+.edit-user {
+	width: 100%;
+}
+.heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.usersite-box h3 {
+	margin: 30px 0;
+	text-align: center;
+	font-size: 42px;
+}
+.heading i {
+	font-size: 82px;
+	color: #f77f00;
+}
+.heading i:nth-of-type(2) {
+	visibility: hidden;
+}
+
+.btns {
+	display: flex;
+	justify-content: center;
+}
+
+.usersite-icon {
+	position: relative;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.icon-tabler {
+	color: #ff8400;
+}
+.usersite-box button {
+	margin-top: 25px;
+	padding: 10px;
+	width: 50%;
+}

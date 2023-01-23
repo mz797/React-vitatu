@@ -44,7 +44,7 @@ const useInput = (validateValue: (arg0: any) => boolean,value:string) => {
 	};
 
 	return {
-		value: inputState.value,
+		value: inputState?.value ?? '',
 		isValid: valueIsValid,
 		hasError,
 		valueChangeHandler,

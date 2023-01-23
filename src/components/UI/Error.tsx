@@ -5,8 +5,8 @@ type ErrorProps = {
 
 const Error = (props: ErrorProps) => {
 	return (
-		<div>
-			<p className={classes.invalid}>{props.message}</p>
+		<div className={classes.error}>
+			<p >{props.message}</p>
 		</div>
 	);
 };

@@ -1,0 +1,27 @@
+.form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.form h3,
+.form h4 {
+	text-align: center;
+	color: #003049;
+}
+.form h3 {
+	text-transform: uppercase;
+	font-size: 42px;
+}
+.form h4 {
+	font-size: 36px;
+}
+.form .btns {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.form button {
+	margin: 10px 0;
+	width: 48%;
+}

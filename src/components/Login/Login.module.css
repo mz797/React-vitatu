@@ -1,0 +1,19 @@
+.login-body h3 {
+	margin-bottom: 20px;
+}
+.login-body .invalid {
+	text-align: center;
+	color: red;
+}
+.login-body .form-box {
+	padding: 0px 50px 40px;
+}
+.login-body form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.login-body button {
+	margin-top: 10px;
+}

@@ -1,12 +1,63 @@
+.diet {
+	display: flex;
+	margin: 30px auto;
+	width: 70vw;
+	/* height: fit-content; */
+	background-color: rgb(254, 254, 248);
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.585);
+	overflow: hidden;
+}
+.diet-img-bg {
+	position: relative;
+	width: 30%;
+	overflow: hidden;
+	height: 100%;
+}
+.diet-img-bg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 .product-list-box {
 	display: flex;
 	flex-direction: column;
-	width: auto;
-    
+	padding: 30px 0px 60px;
+	width: 70%;
 }
 .product-list {
 	margin: 10px auto 0px;
 }
 .heading {
 	text-align: center;
+}
+.emptyDietParagraph {
+	text-align: center;
+	font-size: 20px;
+}
+ul {
+	padding: 0px 60px;
+	width: 100%;
+}
+.diet-li {
+	width: 100%;
+	font-size: 20px;
+	list-style-type: none;
+	/* background-color: red; */
+	border-bottom: 1px solid rgb(192, 192, 192);
+	transition: background-color 0.3s;
+}
+.diet-li:last-of-type {
+	border: none;
+}
+.diet-li:hover {
+	background-color: rgb(253, 253, 210);
+}
+h2 {
+	margin: 60px 0 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #003049;
+	font-size: 42px;
 }

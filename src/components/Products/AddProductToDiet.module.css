@@ -1,0 +1,32 @@
+.add-to-diet-box {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.487);
+}
+.add-to-diet-box h3 {
+	margin: 20px;
+	font-size: 42px;
+	color: #003049;
+	text-transform: uppercase;
+}
+.add-to-diet-box h4 {
+	font-size: 32px;
+	color: #003049;
+	text-align: center;
+	text-transform: capitalize;
+}
+.add-to-diet-box .btns {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 5px;
+	width: 100%;
+}
+.add-to-diet-box .btns button {
+	width: 48%;
+}

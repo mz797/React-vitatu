@@ -1,6 +1,5 @@
-.invalid{
-    color: red;
-}
-.valid{
-    color:lawngreen;
+.error p {
+	color: red;
+	font-size: 12px;
+    text-transform: uppercase;
 }

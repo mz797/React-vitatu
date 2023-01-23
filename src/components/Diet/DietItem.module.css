@@ -5,21 +5,31 @@
 	width: 100%;
 	font-size: 20px;
 }
-.product p {
-	width: 100px;
-}
 .product span {
 	font-weight: bold;
 }
-.product button {
-	margin-bottom: 5px;
-	padding: 5px 10px;
-	border-radius: 3px;
-	border: 1px solid #999;
-	cursor: pointer;
-	transition: background-color 0.3s, color 0.3s;
+
+.details {
+	padding-left: 85px;
+	overflow: hidden;
+	height: 100%;
 }
-.product button:hover {
-	background-color: #999;
-	color: #fff;
+.btns {
+	margin: 3px 10px;
+}
+
+.product-text {
+	overflow-wrap: break-word;
+}
+.details-parag {
+	margin: 5px;
+	letter-spacing: 1.5px;
+	text-transform: capitalize;
+	color: #003049;
+}
+.details-parag span {
+	font-weight: 500;
+}
+.details-parag span {
+	font-weight: bold;
 }

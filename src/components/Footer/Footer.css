@@ -1,0 +1,33 @@
+.CircularProgressbar-text {
+	text-align: center;
+	background-color: red;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	background-color: rgb(255, 249, 239);
+	border-top: 2px solid #f78000d4;
+	z-index: 1000;
+}
+.measure-box {
+	padding: 8px;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+}
+.measure-circle {
+	width: 70px;
+	height: 70px;
+}
+.measure-text {
+	margin-right: 5px;
+}
+.measure-text p {
+	text-align: center;
+	font-size: 14px;
+}
