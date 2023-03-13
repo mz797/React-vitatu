@@ -9,7 +9,11 @@
             alt="typescript" width="60" height="60" />
     </a>
     <a href="https://reactrouter.com/en/main" target="_blank" title="React Router" rel="noreferrer">
-        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vtI2NHvd--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q0lj87mz6whntv2zbxdm.png" alt="React Router"
+        <img src="https://reactrouter.com/twitterimage.jpg" alt="React Router"
+            width="60" height="60" />
+    </a>
+    <a href="https://reactrouter.com/en/main" target="_blank" title="Redux Toolkit" rel="noreferrer">
+        <img src="https://miro.medium.com/max/800/1*4sxOPaVNwxrfZ9uxVbUaKg.jpeg" alt="Redux Toolkit"
             width="60" height="60" />
     </a>
     <a href="https://www.w3schools.com/css/" target="_blank" title="CSS" rel="noreferrer"> <img
