@@ -4,21 +4,21 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
             alt="react" width="60" height="60" />
     </a>
-    <a href="https://www.typescriptlang.org/" target="_blank" title="TypeScript" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-            alt="typescript" width="60" height="60" />
-    </a>
     <a href="https://reactrouter.com/en/main" target="_blank" title="React Router" rel="noreferrer">
         <img src="https://reactrouter.com/twitterimage.jpg" alt="React Router"
             width="60" height="60" />
     </a>
     <a href="https://reactrouter.com/en/main" target="_blank" title="Redux Toolkit" rel="noreferrer">
-        <img src="https://miro.medium.com/max/800/1*4sxOPaVNwxrfZ9uxVbUaKg.jpeg" alt="Redux Toolkit"
+        <img src="https://dawidpolednik.pl/static/media/6.59c46753.png" alt="Redux Toolkit"
             width="60" height="60" />
     </a>
-    <a href="https://www.w3schools.com/css/" target="_blank" title="CSS" rel="noreferrer"> <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
-            alt="css3" width="60" height="60" />
+    <a href="https://www.typescriptlang.org/" target="_blank" title="TypeScript" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+            alt="typescript" width="60" height="60" />
+    </a>
+    <a href="https://axios-http.com/docs/intro" target="_blank" title="Axios" rel="noreferrer"> <img
+            src="[https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png](https://res.cloudinary.com/practicaldev/image/fetch/s--oGEXGSkH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iu70z7h4vp482ptvsw3d.png)"
+            alt="Axios" width="60" height="60" />
     </a>
     <a href="https://www.w3.org/html/" target="_blank" title="HTML5" rel="noreferrer">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png"
