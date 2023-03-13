@@ -18,7 +18,7 @@
     </a>
     <a href="https://axios-http.com/docs/intro" target="_blank" title="Axios" rel="noreferrer"> <img
             src="https://images.velog.io/images/hyeonjeong/post/4487bfcb-62d5-4de6-8dc2-7559106ceb7b/img.jpeg"
-            alt="Axios" width="60" height="60" />
+            alt="Axios" width="100" height="60" />
     </a>
     <a href="https://www.w3.org/html/" target="_blank" title="HTML5" rel="noreferrer">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png"
