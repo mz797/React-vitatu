@@ -17,7 +17,7 @@
             alt="typescript" width="60" height="60" />
     </a>
     <a href="https://axios-http.com/docs/intro" target="_blank" title="Axios" rel="noreferrer"> <img
-            src="https://images.velog.io/images/hyeonjeong/post/4487bfcb-62d5-4de6-8dc2-7559106ceb7b/img.jpeg"
+            src="[https://images.velog.io/images/hyeonjeong/post/4487bfcb-62d5-4de6-8dc2-7559106ceb7b/img.jpeg](https://blog.kakaocdn.net/dn/yx608/btqF3Gtw2U6/942Qv3pHCRUhfj2RF66Hxk/img.png)"
             alt="Axios" width="100" height="60" />
     </a>
     <a href="https://www.w3.org/html/" target="_blank" title="HTML5" rel="noreferrer">
